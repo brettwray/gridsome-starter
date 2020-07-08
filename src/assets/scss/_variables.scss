@@ -1,0 +1,57 @@
+// Set your variables and bulma overrides here.
+// This file is imported in app.scss and bulma-overrides.scss
+// Set your colors
+@import '~bulma/sass/utilities/_all';
+
+$primary: #8c67ef;
+$primary-invert: findColorInvert($primary);
+$twitter: #4099ff;
+$twitter-invert: findColorInvert($twitter);
+
+$colors: (
+	'white': (
+		$white,
+		$black,
+	),
+	'black': (
+		$black,
+		$white,
+	),
+	'light': (
+		$light,
+		$light-invert,
+	),
+	'dark': (
+		$dark,
+		$dark-invert,
+	),
+	'primary': (
+		$primary,
+		$primary-invert,
+	),
+	'info': (
+		$info,
+		$info-invert,
+	),
+	'success': (
+		$success,
+		$success-invert,
+	),
+	'warning': (
+		$warning,
+		$warning-invert,
+	),
+	'danger': (
+		$danger,
+		$danger-invert,
+	),
+	'twitter': (
+		$twitter,
+		$twitter-invert,
+	),
+);
+
+// Links
+$link: $primary;
+$link-invert: $primary-invert;
+$link-focus-border: $primary;

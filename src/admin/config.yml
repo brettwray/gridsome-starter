@@ -1,0 +1,26 @@
+# Netlify CMS Configuration File
+# This is where you'll register your collections (Content Types)
+
+# EX:
+# collections:
+# - name: <collection name>
+# label: <content type / collection label>
+# folder: <Folder where the content for this type is stored.>
+# slug: <slug template, use handlebars>
+# fields:
+# - { label: <field label>, name: <field name>, widget: <field type>}
+
+backend:
+  name: github
+  repo: your_name/your_repo # Branch to update (optional; defaults to master)
+
+media_folder: "static/uploads" # Where your uploads go.
+public_folder: "/uploads" # public files go here
+
+collections:
+  - name: "Posts"
+    label: "posts"
+    folder: "content/posts"
+    slug: "{{title}}"
+    fields:
+      - { label: "title", name: "title", widget: "string" }
