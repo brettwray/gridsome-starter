@@ -4,8 +4,9 @@
 // Changes here require a server restart.
 // To restart press CTRL + C in terminal and run `gridsome develop`
 const path = require('path');
-const purgecss = require('@fullhuman/postcss-purgecss');
 const autoprefixer = require('autoprefixer');
+const purgecss = require('@fullhuman/postcss-purgecss');
+const purgecssOptions = require('./purgecss.config');
 const cssnano = require('cssnano');
 
 // For using global styles.
@@ -35,21 +36,9 @@ module.exports = {
 			postcss: {
 				plugins: [
 					autoprefixer,
-					purgecss({
-						whitelist: [
-							'is-size-1',
-							'is-twitter',
-							'icon',
-							'mdi',
-							'mdi-facebook',
-							'mdi-24px',
-							'has-text-danger',
-						],
-						content: [
-							'./node_modules/bulma/sass/utilities/animations.sass',
-						],
-					}),
-					...(process.env.NODE_ENV === 'production' ? [cssnano] : []),
+					...(process.env.NODE_ENV === 'production'
+						? [purgecss(purgecssOptions), cssnano]
+						: []),
 				],
 			},
 		},
