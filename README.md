@@ -2,18 +2,20 @@
 
 Made to save time getting a Gridsome project fired up. It's got my personal preferences, not really meant for the masses, but feel free to use it or make suggestions.
 
+## [view demo site](https://flamboyant-knuth-3f5861.netlify.app/)
+
 ## Technologies Used:
 
-[Gridsome](https://gridsome.org/)
-[Netlify CMS](https://www.netlifycms.org/)
-[SASS/SCSS](https://sass-lang.com/)
-[POSTCSS](https://www.postcss.parts/)
-[Buefy - Bulma for Vue](https://buefy.org/)
-[Gridsome Plugin Netlify CMS](https://gridsome.org/plugins/gridsome-plugin-netlify-cms)
-[Gridsome Transformer Remark](https://gridsome.org/plugins/@gridsome/transformer-remark)
-[Gridsome Source Filesystem](https://gridsome.org/plugins/@gridsome/source-filesystem)
-[Gridsome Sitemap](https://gridsome.org/plugins/@gridsome/plugin-sitemap)
-[Gridsome Critical CSS](https://gridsome.org/plugins/@gridsome/plugin-critical)
+- [Gridsome](https://gridsome.org/)
+- [Netlify CMS](https://www.netlifycms.org/)
+- [SASS/SCSS](https://sass-lang.com/)
+- [POSTCSS](https://www.postcss.parts/)
+- [Buefy - Bulma for Vue](https://buefy.org/)
+- [Gridsome Plugin Netlify CMS](https://gridsome.org/plugins/gridsome-plugin-netlify-cms)
+- [Gridsome Transformer Remark](https://gridsome.org/plugins/@gridsome/transformer-remark)
+- [Gridsome Source Filesystem](https://gridsome.org/plugins/@gridsome/source-filesystem)
+- [Gridsome Sitemap](https://gridsome.org/plugins/@gridsome/plugin-sitemap)
+- [Gridsome Critical CSS](https://gridsome.org/plugins/@gridsome/plugin-critical)
 
 **There's probably a few items missing from that list ^**
 
