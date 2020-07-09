@@ -2,7 +2,7 @@
 
 Made to save time getting a Gridsome project fired up. It's got my personal preferences, not really meant for the masses, but feel free to use it or make suggestions.
 
-## [view demo site](https://flamboyant-knuth-3f5861.netlify.app/)
+## [view demo site](https://gridsome-starter-handy.netlify.app/)
 [![Netlify Status](https://api.netlify.com/api/v1/badges/846a60a9-34f9-4a4f-ae4f-7c6c2f4eec42/deploy-status)](https://app.netlify.com/sites/flamboyant-knuth-3f5861/deploys)
 
 
