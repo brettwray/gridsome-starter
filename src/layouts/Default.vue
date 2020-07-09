@@ -1,18 +1,14 @@
 <template>
-	<div class="layout">
-		<header class="header">
-			<strong>
-				<g-link to="/">{{ $static.metadata.siteName }}</g-link>
-			</strong>
-			<nav class="nav">
-				<g-link class="nav__link has-text-danger is-size-1" to="/"
-					>Home</g-link
-				>
-				<g-link class="nav__link" to="/about/">About</g-link>
-				<b-icon icon="facebook" />
-			</nav>
+	<div class="default-layout">
+		<header>
+			<p>header</p>
 		</header>
-		<slot />
+		<main>
+			<p>main</p>
+		</main>
+		<footer>
+			<p>footer</p>
+		</footer>
 	</div>
 </template>
 
@@ -24,4 +20,15 @@ query {
 }
 </static-query>
 
-<style lang="scss"></style>
+<style lang="scss">
+.default-layout {
+	display: flex;
+	flex-direction: column;
+	min-height: 100vh;
+	width: 100%;
+
+	main {
+		flex: 1;
+	}
+}
+</style>
