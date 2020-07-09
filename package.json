@@ -20,6 +20,7 @@
 		"gridsome": "^0.7.0",
 		"gridsome-plugin-netlify-cms": "^1.0.9",
 		"netlify-cms": "^2.10.52",
+		"typeface-rubik": "0.0.72",
 		"vue-gtag": "^1.7.0",
 		"vuex": "^3.5.1"
 	},

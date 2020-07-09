@@ -4,6 +4,7 @@ import DefaultLayout from '~/layouts/Default.vue';
 import store from './store';
 import './assets/scss/bulma-overrides.scss';
 import '@mdi/font/css/materialdesignicons.css';
+require('typeface-rubik');
 
 export default function(Vue, { appOptions, router, head, isClient }) {
 	appOptions.store = store;
